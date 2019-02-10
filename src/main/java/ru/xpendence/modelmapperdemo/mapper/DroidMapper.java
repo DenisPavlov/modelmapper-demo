@@ -10,11 +10,6 @@ import ru.xpendence.modelmapperdemo.repository.UnicornRepository;
 import javax.annotation.PostConstruct;
 import java.util.Objects;
 
-/**
- * Author: Vyacheslav Chernyshov
- * Date: 30.01.19
- * e-mail: 2262288@gmail.com
- */
 @Component
 public class DroidMapper extends AbstractMapper<Droid, DroidDto> {
 

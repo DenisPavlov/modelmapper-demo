@@ -8,12 +8,6 @@ import ru.xpendence.modelmapperdemo.entity.AbstractEntity;
 
 import java.util.Objects;
 
-/**
- * Author: Vyacheslav Chernyshov
- * Date: 04.02.19
- * Time: 21:55
- * e-mail: 2262288@gmail.com
- */
 public abstract class AbstractMapper<E extends AbstractEntity, D extends AbstractDto> implements Mapper<E, D> {
 
     @Autowired
